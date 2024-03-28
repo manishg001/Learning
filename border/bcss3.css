@@ -1,0 +1,57 @@
+
+/* border width: thick thin medium ?px*/
+*{
+    text-align: center;
+    font-size: 35px;
+    background-color: black;
+    
+}
+
+h2{
+    text-align: center;
+    border-style:double;
+    color:orange;
+}
+
+p{
+    border-style:dashed;
+    border-width: 8px;
+    color:red;
+    
+}
+
+.hover{
+    color:skyblue;
+    /* to use one by one*/
+    /* border-style:solid;
+    border-color:rgb(64, 18, 72);
+    border-width:8px; */
+
+    /* to use in sinle line*/
+    border:solid rgb(64, 18, 72) 8px;
+    padding:50px 25px;
+    border-radius: 20px;
+}
+
+.hover:hover{
+    color:lightyellow;
+    background-color:skyblue;
+}
+.thick{
+    border-width:thick;
+    border-style:dashed;
+    color:gray;
+
+}
+
+.medium{
+    border-width:medium;
+    border-style:dashed;
+    color:aqua;
+}
+
+.thin{
+    border-width:thin;
+    border-style:dashed;
+    color:pink;
+}

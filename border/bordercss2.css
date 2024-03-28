@@ -1,0 +1,44 @@
+*{
+    font-size:50px;
+}
+
+
+
+h2{
+    text-align: center;
+ border-top-style:double;
+ border-bottom-style:dashed;
+ border-left-style:dotted;
+ border-right-style:solid;
+}
+
+/* TO USE ALLL FOUR IN ONE: SHORT TRICK */
+/* FOR THIS IT IS CLOCKWISE FROM TOP, RIGHT, BOTTOM,LEFT  */
+
+P{
+    border-style: DASHED DOTTED DOUBLE DOTTED;
+}
+
+/* TO USE IT IN TWO SIDE ONLY*/
+/* TOP BOTTOM LEFT RIGHT*/
+.SHORT{
+    border-style: double DASHED;
+}
+
+
+
+.solid{
+    border-style:solid;
+}
+
+.dotted{
+    border-style:dotted;
+}
+
+.dashed{
+    border-style:dashed;
+}
+
+.double{
+    border-style:double;
+}
