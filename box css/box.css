@@ -1,0 +1,24 @@
+p{
+    /* color:white; */
+    background-color: rgb(239, 204, 204);
+    border:solid 8px yellow;
+    padding:50px 50px;
+    margin:10px auto;
+}
+
+h1{
+    text-align: justify;
+    color:red;
+    font-size: 20px;
+}
+
+table,td,th{
+    border:dashed 8px green;
+    
+
+}
+
+.table2{
+    border-collapse: separate;
+    float:right;
+}
