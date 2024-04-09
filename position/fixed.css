@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+
+}
+
+h3{
+    position: fixed;
+    top:250px;
+    left:350px;
+    text-align:center;
+    border: 5px double red;
+    height: 40px;
+    width: 100px;
+    background-color: skyblue;
+
+}

@@ -1,0 +1,20 @@
+h2{
+    color:blue;
+}
+
+.right{
+    direction:rtl;
+}
+
+#center{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color:red ;
+    text-decoration-style:double ;
+}
+
+h4{
+    font-size: 50px;
+    letter-spacing: 1.5px;
+    text-shadow:3px 4px red;
+}

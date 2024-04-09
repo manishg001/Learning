@@ -1,0 +1,61 @@
+*{
+    background-color: rgb(0, 0, 0);
+}
+
+.set1{
+    background-color: blue;
+    width: 250px;
+    height: 250px;
+    margin:20px 0 0 20px;
+}
+
+.set1 > div{
+    background-color: rgb(89, 89, 94);
+    width: 200px;
+    height: 200px;
+
+    position:relative;
+    left:70px;
+    bottom:30px;
+    
+}
+
+.set2{
+    background-color: rgb(142, 16, 33);
+    width: 250px;
+    height: 250px;
+    margin:60px 0 0 20px;
+
+    position:relative;
+}
+
+.set2 > div{
+    background-color: rgb(219, 219, 14);
+    width: 200px;
+    height: 200px;
+
+    position:absolute;
+    left:170px;
+    top:70px;
+    
+}
+
+.set3{
+    background-color: rgb(142, 16, 33);
+    width: 250px;
+    height: 250px;
+    margin:60px 0 0 20px;
+
+    /* position:relative; if not used then*/
+}
+
+.set3 > div{
+    background-color: rgb(243, 243, 242);
+    width: 20px;
+    height: 20px;
+
+    position:absolute; /* if no position given in parent element then it jumps like this */
+    left:170px;
+    top:70px;
+    /* with absolute position, relative should be used in parent element */    
+}
