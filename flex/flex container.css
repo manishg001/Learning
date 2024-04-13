@@ -1,0 +1,20 @@
+*{
+    background-color: skyblue;
+    
+}
+
+.main{
+    display:flex;   
+    flex-flow: row wrap;
+    justify-content: space-around;
+      
+}
+
+.main > div{
+    background-color: tomato;
+    width:100px;
+    height:150px;    
+    text-align: center;
+    padding: 10px;
+    margin-top:10px;
+}

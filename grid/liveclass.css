@@ -1,0 +1,34 @@
+.container{
+    display:grid;
+    grid-template-columns:0.25fr 1fr 1fr ;
+    grid-gap:10px;
+    grid-template-rows:auto;
+    grid-template-areas:"sidebar header header"
+    "sidebar content content"
+    "sidebar footer footer";
+
+}
+
+.header{
+    grid-area: header;
+    border:2px solid black;
+    width:auto;
+    
+}
+.sidebar{
+    grid-area: sidebar;
+    border:2px solid black;
+    text-align: center;
+   
+}
+
+.content{
+    grid-area: content;
+    border:2px solid black;
+    text-align: center;
+}
+
+.footer{
+    grid-area: footer;
+    border:2px solid black;
+}

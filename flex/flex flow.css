@@ -1,0 +1,38 @@
+body{
+    background-color: #E7E9EB;
+}
+
+.main1{
+    height:600px;
+    background-color: #FFFFFF;
+}
+
+.main{
+
+    height: 100px;
+    display:flex;
+    flex-flow: column-reverse wrap-reverse;
+}
+
+
+.main div{
+    width:60px;
+    height:60px;
+    padding:5px;
+}
+
+.pink{
+    background-color: pink;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.red{
+    background-color: Red;
+}

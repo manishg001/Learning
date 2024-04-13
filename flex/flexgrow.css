@@ -1,0 +1,27 @@
+.red{
+    background-color: red;
+    flex-grow: 1;
+}
+
+.blue{
+    background-color: blue;
+    flex-grow: 2;
+}
+
+.yellow{
+    background-color: yellow;
+    flex-grow: 1;
+}
+
+.pink{
+    background-color: pink;
+    flex-grow: 3;
+}
+
+.main{
+    display: flex;
+    width:100%;
+    height:350px;
+
+    
+}
