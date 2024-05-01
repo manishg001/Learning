@@ -1,0 +1,33 @@
+*{
+    background-color: aqua;
+}
+.main{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    border-radius:50%;
+    animation: mymove 5s infinite;
+  }
+  
+  @keyframes mymove {
+    from {top: 0px;}
+    to {top: 200px;}
+  }
+
+  @keyframes main1{
+    
+    from {top: 200px;}
+    to {top: 0px;}
+  }
+
+  .main1{
+    position:relative;
+    left: 200px;
+    width: 100px;
+    height: 100px;
+    background: rgb(71, 51, 51);
+    position: relative;
+    border-radius:50%;
+    animation: main1 5s infinite;
+  }
