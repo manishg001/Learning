@@ -1,0 +1,21 @@
+.main a.active {
+    background-color: #0491aa;
+    color: white;
+}
+
+.main {
+    width: 150px;
+}
+
+.main a {
+    background-color: gray;
+    color: black;
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+
+}
+
+a:hover {
+    background-color: blue;
+}

@@ -1,0 +1,24 @@
+.sidebar{
+   position: fixed;
+   top:0px;
+   left:0px;
+   margin-left:0px;
+  
+   
+    
+}
+
+.sidebar li{
+
+    top:0px;
+    left:0px;
+    display: block;
+    /* color:white;
+    background-color: black; */
+    list-style: none;
+    /* width:165px;
+    font-size: 20px;
+    padding:10px;
+   
+    align-items: center; */
+}
