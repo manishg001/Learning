@@ -1,0 +1,32 @@
+.main{
+    background-color: RED;
+    width: 200px;
+    height: 200PX;
+    animation: box 4s infinite  ;
+}
+/* 
+@keyframes box {
+
+0%{
+    background-color:pink;
+}
+
+33%{
+    background-color: darkgreen;
+}
+
+66%{
+    background-color: black;
+}
+
+100%{
+    background-color: aqua;
+}
+     */
+/* can be done via both ways */
+
+@keyframes box{
+    from{background-color:red;}
+    to{background-color:yellow;}
+}
+}
