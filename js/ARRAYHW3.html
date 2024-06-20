@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Array filter</title>
+  </head>
+  <body>
+    <script>
+      const address = ["london", "Michigan", "delhi", "Mumbai"];
+      function long(addr) {
+        return addr.length > 5;
+      }
+      const longer = address.filter(long);
+      document.write(longer + "<br>");
+      address.pop();
+      document.write(address);
+      alert(address.indexof("pune"));
+      alert(address.indexof("delhi"));
+    </script>
+  </body>
+</html>

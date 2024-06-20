@@ -1,0 +1,21 @@
+body {
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: block;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    align-items: centers;
+    margin-top: 10px;
+    height: 300px;
+    width: 500px;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: wheat;
+
+}
