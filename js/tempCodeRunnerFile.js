@@ -1,4 +1,11 @@
+function sumofdigit(n) {
+  let sum = 0;
+  while (n != 0) {
+    let digit = n % 10;
+    n = Math.floor(n / 10);
+    sum += digit;
+  }
+  return sum;
+}
 
-// for(i=1; i<=100;i++){
-//     if(i%2==0) console.log("even num = " + i) ;
-// }
+console.log(sumofdigit(19));
